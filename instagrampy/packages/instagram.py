@@ -42,7 +42,7 @@ class Instagrammer:
         """
 
         try:
-            URL = f"https://instagram.com/{username}/?__a=1"
+            URL = f"https://instagram.com/{username}/channel/?__a=1"
             PROFILE = requests.get(
                 url = URL,
                 headers = self.headers
