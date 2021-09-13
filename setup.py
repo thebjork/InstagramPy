@@ -10,7 +10,7 @@ with open(path.join(this_dir, "requirements.txt"), encoding = "utf-8") as f:
 
 setup(
     name = "igpy",
-    version = "1.0.2",
+    version = "1.0.3",
     author = "Devansh Singh",
     author_email = "devanshamity@gmail.com",
     url = "https://github.com/Devansh3712/InstagramPy",
